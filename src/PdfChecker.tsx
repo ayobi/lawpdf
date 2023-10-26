@@ -17,7 +17,7 @@ const LatestLink: React.FC = () => {
         let latestLinkUrl = '';
         let latestTimestamp = 0;
 
-        links.each((index, element) => {
+        links.each((_index, element) => {
           const linkUrl = $(element).attr('href') || '';
           const timestamp = Date.parse($(element).attr('data-timestamp') || '');
 

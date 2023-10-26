@@ -1,10 +1,8 @@
-import React, { useState } from 'react';
 import legLogo from './assets/legapplogo.png';
 import './App.css';
 import PdfChecker from './PdfChecker'; // Import the PdfChecker component
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <>
